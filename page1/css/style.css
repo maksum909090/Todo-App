@@ -1,0 +1,79 @@
+.body {
+    margin: 0 10% 0 10%;
+}
+
+header {
+    background-color: #F5F5F5;
+}
+
+.elips {
+    background-image: url(../img/Shape.svg);
+    width: 150px;
+    height: 140px;
+}
+
+.mobil {
+    background-image: url(../img/undraw_develop_app_re_bi4i\ 1.svg);
+    width: 180px;
+    height: 168px;
+    margin: auto;
+    display: table;
+}
+
+main {
+    background-color: #F5F5F5;
+    padding: 60px 0 0 0;
+}
+
+.text1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 auto;
+    display: table;
+    padding: 91px 0 26px 0;
+}
+
+.text2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    width: 315px;
+    height: 82px;
+    margin: 0 auto;
+    display: table;
+    padding-bottom: 65px;
+}
+
+.footer {
+    background-color: #F5F5F5;
+    padding-bottom: 92px;
+}
+
+button {
+    width: 272px;
+    height: 56px;
+    border: none;
+    background-color: #50C2C9;
+    margin: 0 auto;
+    display: table;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: darkviolet;
+    text-decoration: darkmagenta;
+    text-decoration: underline;
+}
