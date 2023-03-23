@@ -1,27 +1,27 @@
 
 .body {
-   margin: 0 20%;
-
+    margin: 0 10%;
 }
 
 .header {
     background-color: #50C2C9;
+    padding-bottom: 1px;
 }
 
 .avatar1 {
-    margin: 138px 55% 0 45% ;
+   margin: 0 auto;
+   display: table;
 }
 
-.elips1 {
-    position: absolute;
+.elips {
+    background-image: url(../img/Shape.svg);
+    
+    width: 150px;
+    height: 140px;
 }
 
 .Ahmed {
     margin-bottom: 31px;
-}
-
-.miss {
-    font-size: 0px;
 }
 
 .Ahmedispower {
@@ -37,11 +37,11 @@
 
 .shell {
     background-color: #E5E5E5;
+    padding-bottom: 44px;
 }
 
 .content {
-    margin: 0 3%;
-    margin-bottom: 44px;
+    margin: 0 3% 0 3%;
 }
 
 .task {
@@ -54,8 +54,6 @@
     
 }
 
-
-
 .header_label {
     background-color: #fff;
     
@@ -67,6 +65,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 19px 0 0 0;
     margin: 12px 0 0 0;
+    
 }
 
 .task2 {
@@ -74,37 +73,23 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    margin: 0 0 0 20px;
-    margin-bottom: 17px 0 0 0;
+    margin: 14px 0 0 20px;
+    position: absolute;
 }
 
 .button {
-    border-radius: 100%;
+    border-radius: 50%;
     border: none;
     background-color: #50C2C9;
     width: 26px;
     height: 26px;
-    position: absolute;
-    margin-left: 52%;
+    margin: 0 0 0 94%
 }
 
 .plus_ultra {
-    background: white;
-    height: 14px; 
-    width: 2px;
-    position: relative; 
-    left: 4px;
-    margin: 0 0 0 2px;
-}
-    
-.plus_ultra:after {
-    content: "";
-    height: 2px; 
-    width: 14px;
-    background: white;
-    position: absolute; 
-    left: -6px; 
-    top: 6px;
+    color: white;
+    font-size: 29px;
+    transform: translate(-10%, -10%);
 }
 
 .checkbox {
@@ -128,7 +113,6 @@
     height: 17px;
     background-color:#50C2C9;
     opacity: 0;
-    transform: .2s;
 }
 
 .checkbox:checked + .fake::before {
@@ -148,16 +132,7 @@
     line-height: 2.5;
     margin: 17px 0 0 20px;
     overflow-y: scroll;
-    margin-bottom: 98px;
-    
-}
-
-.miss1 {
-    font-size: 0px;
-}
-
-.miss2 {
-    font-size: 0px;
+    height: 300px;
 }
 
 body::-webkit-scrollbar {
