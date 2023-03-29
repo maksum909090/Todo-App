@@ -1,0 +1,154 @@
+
+.header {
+    background-color: #E5E5E5;
+    padding-bottom: 80px;
+}
+
+body {
+    background-color: yellow;
+}
+
+.elips {
+    background-image: url(../img/Shape.png);
+    width: 150px;
+    height: 140px;
+}
+
+.main {
+    background-color: #E5E5E5;
+}
+
+.text1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin: 16px 0 0 0;
+    padding-bottom: 41px;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+    width: 85%;
+    padding: 0 0 0 35px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.form {
+    padding-bottom: 67px;
+}
+
+.footer {
+    background-color: #E5E5E5;
+}
+
+button {
+    width: 272px;
+    height: 56px;
+    border: none;
+    background-color: #50C2C9;
+    margin: 0 auto;
+    display: table;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+
+.a1 {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.a2 {
+    color: #24D0C6;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: darkviolet;
+    text-decoration: darkmagenta;
+    text-decoration: underline;
+}
+
+.sign_in {
+    text-align: center;
+    margin: 28px 0 0 0;
+    padding-bottom: 40px;
+}
+
+.p1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1000px){
+    .elips {
+        background-image: url(../img/Shape2x.png);
+        width: 300px;
+        height: 280px;
+    }
+    
+    .text1 {
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+
+    .text2 {
+        font-size: 40px;
+        margin-bottom: 150px;
+    }
+
+    input {
+        height: 100px;
+        font-size: 25px;
+        margin-bottom: 100px;
+    }
+
+    button {
+        width: 408px;
+        height: 112px;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .sign_in {
+        font-size: 25px;
+    }
+
+    .a2 {
+        font-size: 25px;
+    }
+}
