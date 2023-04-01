@@ -1,41 +1,16 @@
+/* General Provisions */
+
 body {
-    background-image: url(../images/Elips.svg), url(../images/Mobile.svg);
+    background-image: url(../images/Elips.svg);
     background-color: #F5F5F5;
     background-repeat: no-repeat;
-    background-position: 0 0, right 50% top 200px; 
-}
-
-body.nobgimage {
-    background-image: none;
+    background-position: 0 0;
 }
 
 main {
     text-align: center;
     font-family: 'Poppins';
     font-style: normal;
-}
-
-a {
-    color: #24D0C6;
-    text-decoration: none;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.p1 {
-    font-weight: 600;
-    font-size: 18px;
-    margin: 450px 0 100px 0;
-}
-
-.p2 {
-    margin: 0 auto;
-    display: block;
-    width: 60%;
-    line-height: 25px;
-    padding: 30px 0 30px 0;
 }
 
 button {
@@ -52,7 +27,43 @@ button {
     color: white;
 }
 
-.a111 {
+a {
+    color: #24D0C6;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+} 
+
+/* General Provisions */
+
+/* Page 1 */
+
+.phone_with_people {
+    background-image: url(../images/Mobile.svg);
+    width: 180px;
+    height: 168px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 220px;
+}
+
+.first_title {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 100px 0 0 0;
+}
+
+.second_title {
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+    line-height: 25px;
+    padding: 30px 0 30px 0;
+}
+
+.link_in_the_button {
     color: white;
 }
 
