@@ -7,10 +7,11 @@ body {
     background-position: 0 0;
 }
 
-main {
+.font {
     text-align: center;
     font-family: 'Poppins';
     font-style: normal;
+    font-size: 16px;
 }
 
 button {
@@ -20,8 +21,6 @@ button {
     height: 56px;
     margin: 0 auto;
     display: block;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     color: white;
@@ -30,14 +29,23 @@ button {
 a {
     color: #24D0C6;
     text-decoration: none;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
 } 
 
-/* General Provisions */
+input {
+    border: none;
+    border-radius: 20px;
+    width: 85%;
+    padding: 0 0 0 35px;
+    height: 46px;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    display: block;
+    margin-bottom: 28px;
+    font-size: 11px;
+}
 
+/* General Provisions */
 /* Page 1 */
 
 .phone_with_people {
@@ -49,13 +57,13 @@ a {
     margin-top: 220px;
 }
 
-.first_title {
+.first_title_page1 {
     font-weight: 600;
     font-size: 18px;
     margin: 100px 0 0 0;
 }
 
-.second_title {
+.second_title_page1 {
     margin: 0 auto;
     display: block;
     width: 60%;
@@ -67,108 +75,90 @@ a {
     color: white;
 }
 
-.footer1 {
-    padding: 20px 0 40px 0;
-}
-
 /* Page 2 */
 
-.elips1 {
-    background-image: url(../images/Elips.svg);
-    width: 157px;
-    height: 144px;
-}
-
-.main11 {
-    padding-bottom: 30px;
-}
-
-.p11 {
+.first_title_page2 {
     font-weight: 600;
     font-size: 18px;
-    margin: 70px 0 16px 0;
+    margin: 220px 0 0 0;
 }
 
-.p12 {
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 40px;
+.second_title_page2 {
+    margin: 16px 0 60px 0;
 }
 
-input {
-    border: none;
-    border-radius: 20px;
-    width: 85%;
-    padding: 0 0 0 35px;
-    height: 46px;
-    margin: 0 auto;
-    display: block;
-    margin-bottom: 28px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-}
-
-.p13 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+.sign_in {
     padding: 20px 0;
-    text-align: center;
+}
+/* Page 2 */
+/* Page 3 */
+
+.first_title_page3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 160px 0 50px 0;
 }
 
-.mobile2 {
+.phone_with_bastard {
     background-image: url(../images/Mobile2.svg);
     height: 186px;
-    margin: 40px 0 60px 0;
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 70px;
 }
 
-.a1 {
+.sign_in_on_button {
+    color: white;
+}
+
+.forgot_password {
+    margin: 60px 0 30px 0;
+}
+
+.sign_up {
+    margin: 22px 0 0 0;
+}
+/* Page 3 */
+/* Page 4 */
+
+.header_background_color {
+    background-color: #50C2C9;
+}
+
+.font_page4 {
+    text-align: center;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    text-align: center;
-    display: block;
-    margin: 60px 0 22px 0;
+    background-image: none;
 }
 
-.header4 {
-    background-color: #50C2C9;
-
+.elips {
+    background-image: url(../images/Elips.svg);
+    height: 145px;
+    background-repeat: no-repeat;
 }
 
 .avatar {
     background-image: url(../images/Avatar.svg);
     height: 114px;
     background-position: center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    margin: 20px 0 30px 0;
 }
 
-.p41 {
-    font-family: 'Poppins';
-    font-style: normal;
+.first_title_page4 {
     font-weight: 600;
     font-size: 18px;
     color: white;
-    padding: 21px 0 31px 0;
-    text-align: center;
+    padding-bottom: 30px;
 }
 
-.p42 {
-    font-family: 'Poppins';
-    font-style: normal;
+.second_title_page4 {
     font-weight: 600;
     font-size: 18px;
-    padding: 32px 0 0 50px;
-}
-
-.alignLeft {
     text-align: left;
+    margin: 32px 0 12px 6%;
 }
 
 .list_wrapper {
@@ -177,19 +167,15 @@ input {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 19px 0 0 0;
     margin: 12px 5% 0 5%;
-    
 }
 
-.task2 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
+.title_list_wrapper {
     font-size: 14px;
-    margin: 14px 0 0 20px;
-    position: absolute;
+    text-align: left;
+    margin: 5px 0 0 20px;
 }
 
-.button4 {
+.button_in_list_wraper {
     border-radius: 50%;
     border: none;
     background-color: #50C2C9;
@@ -199,10 +185,10 @@ input {
     font-weight: 300;
 }
 
-.plus_ultra {
+.plus_in_button {
     color: white;
     font-size: 29px;
-    transform: translate(-20%, -20%);
+    transform: translate(-10%, -10%);
 }
 
 .checkbox {
@@ -236,7 +222,8 @@ input {
     line-height: 2.5;
     margin: 17px 0 0 20px;
     overflow-y: scroll;
-    height: 300px;
+    font-size: 14px;
+    text-align: left;
 }
 
 .text {
@@ -244,14 +231,10 @@ input {
 }
 
 @media screen and (max-width:1000px) {
-    .p1 {
-        font-size: 5vh;
-    }
+    /* General Provisions */
 
-    .p2 {
-        font-size: 3vh;
-        line-height: 56px;
-        padding: 30px 0 100px 0;
+    body {
+        background-size: 22em;
     }
 
     button {
@@ -260,82 +243,116 @@ input {
         font-size: 3em;
     }
 
-    .p11 {
-        font-size: 4em;
-        margin: 140px 0 45px 0;
-    }
-
-    .p12 {
-        font-size: 2em;
-        margin: 0 0 120px 0;
-    }
-
     input {
         width: 23em;
         height: 4em;
         font-size: 2em;
     }
 
-    .main11 {
-        padding-bottom: 120px;
+    /* General Provisions */
+    /* Page 1 */
+
+    .phone_with_people {
+        zoom: 2.5;
+        margin-top: 150px;
     }
 
-    .p13 {
-        padding: 55px;
-        font-size: 2.2em;
+    .first_title_page1 {
+        font-size: 2em;
     }
 
-    .elips1 {
-        background-image: url(../images/Elips_copy.svg);
-        width: 314px;
-        height: 290px;
+    .second_title_page1 {
+        font-size: 1.4em;
+        line-height: 2em;
+        padding:100px 0 100px 0;
     }
 
-    .mobile2 {
-        background-image: url(../images/Mobile2_copy.svg);
-        margin: 40px 0 120px 0;
-        height: 372px;
-        background-position: center;
-        
+    /* Page 1 */ 
+    /* Page 2 */
+
+    .first_title_page2 {
+        font-size: 3em;
+        margin: 320px 0 30px 0;
     }
 
-    .a1 {
-        font-size: 2rem;
-        margin: 120px 0 50px 0;
+    .second_title_page2 {
+        font-size: 2.5em;
+        margin-bottom: 140px;
+    }
+
+    .sign_in {
+        font-size: 2em;
+        margin: 30px 0 0 0;
+    }
+
+    /* Page 2 */
+    /* Page 3 */
+
+    .first_title_page3 {
+        font-size: 3em;
+        margin: 300px 0 50px 0;
+    }
+
+    .phone_with_bastard {
+        zoom: 2;
+    }
+
+    .forgot_password {
+        font-size: 2em;
+        margin: 140px 0 40px 0;
+    }
+
+    .sign_up {
+        font-size: 2em;
+        margin: 40px 0 0 0;
+    }
+
+    /* Page 3 */
+    /* Page 4 */
+
+    .elips {
+        width: 22em;
+        height: 22em;
+        background-size: 22em;
     }
 
     .avatar {
-        background-image: url(../images/Avatar_copy.svg);
-        height: 228px;
+        background-size: 16em;
+        height:16em;
+        height: 16em;
+        margin: 0 auto;
     }
 
-    .p41 {
-        font-size: 4em;
-        padding: 60px 0 50px 0;
-    }
-
-    .p42 {
-        padding: 80px 0 40px 50px;
+    .first_title_page4 {
         font-size: 3em;
+        margin: 50px 0 0 0;
+        padding: 0 0 50px 0;
     }
 
-    .plus_ultra {
-        font-size: 2em;
-        transform: translate(0, -15%);
+    .second_title_page4 {
+        font-size: 2.5em;
     }
 
-    .button4 {
+    .button_in_list_wraper {
+        width: 1.3em;
+        height: 1.3em;
+    }
+
+    .plus_in_button {
+        font-size: 1.3em;
+        transform: translate(0%, -5%);
+    }
+
+    .title_list_wrapper {
+        font-size: 2.3em;
+    }
+
+    .list_item {
+        font-size: 1.3em;
+    }
+
+    .fake {
         width: 2em;
         height: 2em;
-        margin: 0 0 0 84%;
     }
-
-    .task2 {
-        font-size: 2em;
-    }
-
-    .tetx {
-        font-size: 2em;
-    }
-
 }
