@@ -7,6 +7,10 @@ body {
     background-position: 0 0;
 }
 
+.footer {
+    padding-bottom: 90px;
+}
+
 .font {
     text-align: center;
     font-family: 'Poppins';
@@ -50,6 +54,7 @@ input {
 
 .phone_with_people {
     background-image: url(../images/Mobile.svg);
+    background-size: 100% 100%;
     width: 180px;
     height: 168px;
     background-repeat: no-repeat;
@@ -84,11 +89,15 @@ input {
 }
 
 .second_title_page2 {
-    margin: 16px 0 60px 0;
+    margin: 16px 0 100px 0;
 }
 
 .sign_in {
     padding: 20px 0;
+}
+
+.footer_page2 {
+    padding: 62px 0 0 0;
 }
 /* Page 2 */
 /* Page 3 */
@@ -116,7 +125,7 @@ input {
 }
 
 .sign_up {
-    margin: 22px 0 0 0;
+    margin: 22px 0 40px 0;
 }
 /* Page 3 */
 /* Page 4 */
@@ -158,21 +167,21 @@ input {
     font-weight: 600;
     font-size: 18px;
     text-align: left;
-    margin: 32px 0 12px 6%;
+    margin: 90px 0 40px 48px;
 }
 
 .list_wrapper {
     background-color: #fff;
     border-radius: 21px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 19px 0 0 0;
-    margin: 12px 5% 0 5%;
+    padding: 19px 0 120px 0;
+    margin: 12px 5% 100px 5%;
 }
 
 .title_list_wrapper {
     font-size: 14px;
     text-align: left;
-    margin: 5px 0 0 20px;
+    margin: 5px 0 0 40px;
 }
 
 .button_in_list_wraper {
@@ -181,7 +190,7 @@ input {
     background-color: #50C2C9;
     width: 26px;
     height: 26px;
-    margin: 0 0 0 94%;
+    margin: 0 27px 0 0;
     font-weight: 300;
 }
 
@@ -230,6 +239,15 @@ input {
     padding:0 0 0 20px;
 }
 
+#flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0 0 0;
+  }
+
 @media screen and (max-width:1000px) {
     /* General Provisions */
 
@@ -262,7 +280,7 @@ input {
     }
 
     .second_title_page1 {
-        font-size: 1.4em;
+        font-size: 2em;
         line-height: 2em;
         padding:100px 0 100px 0;
     }
@@ -285,6 +303,10 @@ input {
         margin: 30px 0 0 0;
     }
 
+    .footer_page2 {
+        padding: 120px 0 0 0;
+    }
+
     /* Page 2 */
     /* Page 3 */
 
@@ -304,7 +326,7 @@ input {
 
     .sign_up {
         font-size: 2em;
-        margin: 40px 0 0 0;
+        margin: 40px 0 40px 0;
     }
 
     /* Page 3 */
@@ -324,13 +346,13 @@ input {
     }
 
     .first_title_page4 {
-        font-size: 3em;
+        font-size: 3rem;
         margin: 50px 0 0 0;
         padding: 0 0 50px 0;
     }
 
     .second_title_page4 {
-        font-size: 2.5em;
+        font-size: 3rem;
     }
 
     .button_in_list_wraper {
@@ -344,14 +366,19 @@ input {
     }
 
     .title_list_wrapper {
-        font-size: 2.3em;
+        font-size: 2.5rem;
     }
 
-    .list_item {
-        font-size: 1.3em;
+    .label1 {
+        font-size: 1.2rem;
     }
 
     .fake {
+        width: 2em;
+        height: 2em;
+    }
+
+    .fake::before {
         width: 2em;
         height: 2em;
     }
